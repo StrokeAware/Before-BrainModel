@@ -67,7 +67,7 @@ export function Brain3DHeatmap() {
             />
           </Link>
         </div>
-        <h2>StrokeSight</h2>
+        <h1>StrokeSight</h1>
         <div
           style={{
             display: "flex",

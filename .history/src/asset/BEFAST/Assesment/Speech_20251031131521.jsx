@@ -6,7 +6,6 @@ import stringSimilarity from 'string-similarity';
 import { doc, setDoc } from 'firebase/firestore';
 import { firestore } from '../../../component/auth';
 import Swal from 'sweetalert2';
-import { useTranslation } from "react-i18next";
 import './Speech.css';
 
 const SpeechEvaluationApp = () => {
@@ -17,7 +16,7 @@ const SpeechEvaluationApp = () => {
   const [result, setResult] = useState(null);
   const [allowed, setAllowed] = useState(null);
   const patientName = localStorage.getItem('patientName');
-  const { t, i18n } = useTranslation();
+  
   const task = { text: 'ยายพาหลานไปซื้อขนมที่ตลาด', prompt: 'พูดประโยค ' };
 
   const evaluationLevels = [
@@ -129,7 +128,7 @@ const SpeechEvaluationApp = () => {
       <div className="spe-card">
         <div className="spe-header">
           <h1 style={{ fontSize: '40px' }}>{t("speechhead1")}</h1>
-          <p style={{ fontSize: '20px' }}>{t("speechhead2")}</p>
+          <p style={{ fontSize: '20px' }}>ทดสอบความชัดเจนในการพูดของคุณ</p>
         </div>
 
         {!isComplete ? (

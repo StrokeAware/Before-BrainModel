@@ -68,6 +68,7 @@ export function Brain3DHeatmap() {
           </Link>
         </div>
         <h2>StrokeSight</h2>
+        {/* CONTROL PANEL */}
         <div
           style={{
             display: "flex",

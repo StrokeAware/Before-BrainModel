@@ -43,7 +43,7 @@ export function Brain3DHeatmap() {
         <div
           style={{
             display: "flex",
-            fontSize: "clamp(1.5rem, 3.5vw, 5.5rem)",
+            fontSize: "clamp(2rem, 3.5vw, 5.5rem)",
             fontWeight: "bold",
             marginBottom: "1rem",
             color: "#616edf",
@@ -52,8 +52,7 @@ export function Brain3DHeatmap() {
             pointerEvents: "auto", // 👈 clickable
           }}
         >
-          <div>NeuroSight</div>
-          
+          <div>StrokeSight 3D HeatMap</div>
 
           <Link to="/Inform" style={{ textDecoration: "none" }}>
             <img
@@ -67,7 +66,8 @@ export function Brain3DHeatmap() {
             />
           </Link>
         </div>
-        <h2>StrokeSight</h2>
+
+        {/* CONTROL PANEL */}
         <div
           style={{
             display: "flex",

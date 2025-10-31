@@ -179,9 +179,7 @@ const PatientTopForm = () => {
     <>
       <div className="form-title-header">
         <div className='form-title-header'>{t('header')}</div>
-        <Link to="/BEFAST_MAIN_Detail">
-          <img src={leftlogo} className='lefttoplogo'></img>
-        </Link>
+        <img src={leftlogo} className='lefttoplogo'></img>
       </div>  
       <div className="patient-form-container">
         <div className="form-title">{t('form')}</div>
@@ -224,7 +222,7 @@ const PatientTopForm = () => {
             <button type="submit" className="submit-btn" disabled={isSubmitting}>
               {isSubmitting ? t('load') : t('save')}
             </button>
-            <Link to="/inform" style={{textDecoration: "underline double", opacity: "0.6"}}>กลับ</Link>
+            <Link to="/inform" style={{textDecoration: "underline doud"}}>กลับ</Link>
           </div>     
         </form>
 

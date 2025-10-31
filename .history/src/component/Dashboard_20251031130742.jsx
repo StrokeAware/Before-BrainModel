@@ -467,7 +467,7 @@ const DoctorDashboard = () => {
               <Card className="priority-3 mb-4">
                 <Card.Header className="bg-success text-white">
                   <h2>Priority 3 (Monitor)</h2>
-                  <h6>1 BE-FAST symptom</h6>
+                  <p>1 BE-FAST symptom</p>
                   <Badge bg="light" text="dark">{priority3Patients.length} patients</Badge>
                 </Card.Header>
                 <Card.Body>

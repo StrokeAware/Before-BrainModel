@@ -179,8 +179,7 @@ const PatientTopForm = () => {
     <>
       <div className="form-title-header">
         <div className='form-title-header'>{t('header')}</div>
-        <Link to="/BEFAST_MAIN_Detail">
-          <img src={leftlogo} className='lefttoplogo'></img>
+        <Link>
         </Link>
       </div>  
       <div className="patient-form-container">

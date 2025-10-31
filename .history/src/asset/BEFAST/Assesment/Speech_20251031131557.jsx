@@ -6,7 +6,6 @@ import stringSimilarity from 'string-similarity';
 import { doc, setDoc } from 'firebase/firestore';
 import { firestore } from '../../../component/auth';
 import Swal from 'sweetalert2';
-import { useTranslation } from "react-i18next";
 import './Speech.css';
 
 const SpeechEvaluationApp = () => {

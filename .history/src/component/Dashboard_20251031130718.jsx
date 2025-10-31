@@ -421,7 +421,7 @@ const DoctorDashboard = () => {
               <Card className="priority-1 mb-4">
                 <Card.Header className="bg-danger text-white">
                   <h2>Priority 1 (Critical)</h2>
-                  <h6>≥3 BE-FAST symptoms</h6>
+                  <p>≥3 BE-FAST symptoms</p>
                   <Badge bg="light" text="dark">{priority1Patients.length} patients</Badge>
                 </Card.Header>
                 <Card.Body>
@@ -444,7 +444,7 @@ const DoctorDashboard = () => {
               <Card className="priority-2 mb-4">
                <Card.Header Header className="bg-warning text-white">
                   <h2>Priority 2 (Urgent)</h2>
-                  <h6>2 BE-FAST symptoms</h6>
+                  <>2 BE-FAST symptoms</>
                   <Badge bg="light" text="dark">{priority2Patients.length} patients</Badge>
                 </Card.Header>
                 <Card.Body>
@@ -467,7 +467,7 @@ const DoctorDashboard = () => {
               <Card className="priority-3 mb-4">
                 <Card.Header className="bg-success text-white">
                   <h2>Priority 3 (Monitor)</h2>
-                  <h6>1 BE-FAST symptom</h6>
+                  <p>1 BE-FAST symptom</p>
                   <Badge bg="light" text="dark">{priority3Patients.length} patients</Badge>
                 </Card.Header>
                 <Card.Body>

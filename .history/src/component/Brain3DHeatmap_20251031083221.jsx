@@ -53,7 +53,7 @@ export function Brain3DHeatmap() {
           }}
         >
           <div>NeuroSight</div>
-          
+          <h2>a</h2>
 
           <Link to="/Inform" style={{ textDecoration: "none" }}>
             <img
@@ -67,7 +67,8 @@ export function Brain3DHeatmap() {
             />
           </Link>
         </div>
-        <h2>StrokeSight</h2>
+
+        {/* CONTROL PANEL */}
         <div
           style={{
             display: "flex",
